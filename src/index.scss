@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(194, 198, 201);
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    li {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+header,
+footer {
+    background-color: burlywood;
+}
+
+footer {
+    padding: 25px 50px;
+
+    li {
+        list-style-type: none;
+
+        a {
+            color: black;
+        }
+    }
+}
+
+.html {
+    color: red;
+}
+
+.css {
+    color: green;
+}
+
+.php {
+    color: blue;
+}
+
+.js {
+    color: goldenrod;
+}
