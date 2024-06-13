@@ -23,7 +23,7 @@ const Main = () => {
                     return <Card key={i} post={post}></Card>
                 }
             })}
-            <div className='mt-5'>
+            <div className='mt-5 w-100'>
                 <h5 className='text-center'>I tag presenti in questa pagina:</h5>
                 <ul className='d-flex justify-content-center ps-0'>
                     {
