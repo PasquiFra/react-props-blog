@@ -2,7 +2,7 @@ const Header = () => {
 
     return (
         <header>
-            <h1 className="text-center p-4">My CryptoBlog</h1>
+            <h1 className="text-center p-4">My Blog</h1>
         </header>
     )
 }
