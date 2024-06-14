@@ -16,7 +16,7 @@ const Card = ({ post }) => {
     return (
         <div className='card p-3'>
             <figure>
-                <img src={`https://picsum.photos/id/${post.id}/200/300`} alt={`img-${post.id}`} />
+                <img src={post.image ? post.image : `https://picsum.photos/id/${post.id}/200/300`} alt={`img-${post.id}`} />
             </figure>
             <h3>{post.title}</h3>
             <p>
